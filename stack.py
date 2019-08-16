@@ -6,7 +6,7 @@ class stack:
             self.stack.append(data)
             return True
         else:
-            return False#add is mot used here
+            return False#add is not used here
     def peek():
         return self.stack[-1]
     def push(self,data):
